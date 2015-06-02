@@ -1,4 +1,4 @@
-package jwtmiddleware
+package jwtmiddleware_test
 
 import (
 	"encoding/json"
@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/auth0/go-jwt-middleware"
+	"github.com/camuthig/go-jwt-middleware"
 	"github.com/codegangsta/negroni"
-	"github.com/dgrijalva/jwt-go"
+	"gopkg.in/dgrijalva/jwt-go.v2"
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
 	. "github.com/smartystreets/goconvey/convey"

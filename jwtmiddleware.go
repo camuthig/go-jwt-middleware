@@ -2,7 +2,7 @@ package jwtmiddleware
 
 import (
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
+	"gopkg.in/dgrijalva/jwt-go.v2"
 	"github.com/gorilla/context"
 	"log"
 	"net/http"
